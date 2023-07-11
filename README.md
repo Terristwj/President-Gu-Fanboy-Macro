@@ -1,6 +1,7 @@
 # President Gu Fanboy Macro
 
 `Pray smart, not pray hard`
+
 A Python macro to pray autonomously on your computer
 
 ---
