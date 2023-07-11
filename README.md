@@ -38,3 +38,8 @@ A Python macro to pray autonomously on your computer
     - PyAutoGUI
         - [Quickstart](https://pyautogui.readthedocs.io/en/latest/quickstart.html)
         - [Documentation](https://pypi.org/project/PyAutoGUI/)
+
+### Video Tutorial
+https://github.com/Terristwj/President-Gu-Fanboy-Macro/assets/27739101/34ee9b04-5afc-4108-96c6-0a3d35baf9b4
+
+
