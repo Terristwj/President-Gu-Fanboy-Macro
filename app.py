@@ -1,21 +1,16 @@
 # pip modules
 import pyautogui as auto
 import time
+import sys
 
-# Main script
-import script
-
-# Functions modules
-import functions as func
-import utils as util
+# Settings
 import settings
-import messages
-from tutorial import run_tutorial
 
+# Initiate
+from initiate import startup
 
 def main():
-    # Move cursor onto location
-    script.initiate_startup()
+    startup()
 
 if __name__ == '__main__':
     main()

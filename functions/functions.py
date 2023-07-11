@@ -1,5 +1,5 @@
-import app
 from app import auto, time
+import initiate
 
 def repeat(func, n: int) -> None:
     '''Repeats for a function'''
@@ -9,14 +9,14 @@ def repeat(func, n: int) -> None:
 
 def autoPray() -> None:
     '''Auto pray'''
-    [x, y] = app.settings.config['telegram_chat_coords']
+    [x, y] = initiate.settings.config['telegram_chat_coords']
     
     auto.click(x, y)
     auto.typewrite("/pray")
     auto.press("enter")
-    if app.settings.config['is_logged']: app.util.logger()
+    if initiate.settings.config['is_logged']: initiate.util.logger()
 
 def add_delay() -> None:
     '''Delay seconds'''
-    time.sleep(app.settings.config['delay_seconds'])
+    time.sleep(initiate.settings.config['delay_seconds'])
 
